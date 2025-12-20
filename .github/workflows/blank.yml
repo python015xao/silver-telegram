@@ -32,4 +32,10 @@ jobs:
             sudo modprobe -r hid
             sudo modprobe -r hyperv_keyboard
             sudo modprobe -r hyperv_drm
+
+            sudo modprobe -r dm_multipath
+            sudo modprobe -r nvme_fabrics
+            sudo modprobe -r pata_acpi
+            sudo modprobe -r ahci
+            sudo modprobe -r autofs4
             lsmod
