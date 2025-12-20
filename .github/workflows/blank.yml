@@ -27,4 +27,5 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
       - run: |
+            sudo modprobe -r hv_netvsc
             lsmod
