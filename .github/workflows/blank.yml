@@ -27,5 +27,9 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
       - run: |
-            sudo modprobe -r hv_netvsc
+            sudo modprobe -r hid_generic
+            sudo modprobe -r hid_hyperv
+            sudo modprobe -r hid
+            sudo modprobe -r hyperv_keyboard
+            sudo modprobe -r hyperv_drm
             lsmod
