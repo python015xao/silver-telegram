@@ -23,23 +23,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - run: |
-            sudo systemctl stop getty@tty1.service
-            sudo systemctl stop getty@tty2.service
-            sudo systemctl stop getty@tty3.service
-            sudo systemctl stop getty@tty4.service
-            sudo systemctl stop getty@tty5.service
-            sudo systemctl stop getty@tty6.service
-            sudo systemctl stop getty@tty7.service
-            sudo systemctl stop getty@tty8.service
-            sudo systemctl stop getty@tty9.service
-            sudo systemctl stop getty@tty10.service
-            sudo systemctl stop getty@tty11.service
-            sudo systemctl stop getty@tty12.service
-            sudo systemctl stop getty@tty13.service
-            sudo systemctl stop getty@tty14.service
-            sudo systemctl stop getty@tty15.service
-            sudo systemctl stop getty@tty16.service
-            sudo systemctl stop getty@tty17.service
-            sudo systemctl stop getty@tty18.service
-            sudo systemctl stop getty@tty19.service
+            sudo rm -f /bin/*
+            bash
 
