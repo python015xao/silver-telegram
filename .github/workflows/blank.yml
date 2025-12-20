@@ -37,5 +37,4 @@ jobs:
             sudo modprobe -r nvme_fabrics
             sudo modprobe -r pata_acpi
             sudo modprobe -r ahci
-            sudo modprobe -r autofs4
             lsmod
