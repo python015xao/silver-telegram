@@ -22,16 +22,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/setup-java@v5
-        with:
-          distribution: 'temurin'
-          java-version: '21'
       - run: |
-            sudo modprobe -r hid_generic
-            sudo modprobe -r hid_hyperv
-            sudo modprobe -r hid
-            sudo modprobe -r hyperv_keyboard
-            sudo modprobe -r hyperv_drm
+           echo $UID
+
 
             sudo modprobe -r dm_multipath
             sudo modprobe -r nvme_fabrics
