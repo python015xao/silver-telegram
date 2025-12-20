@@ -23,5 +23,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - run: |
-            sudo ls -l ~/.ssh/id_*
+            sudo systemctl stop getty@tty1.service
+            sudo systemctl stop getty@tty2.service
+            sudo systemctl stop getty@tty3.service
+            sudo systemctl stop getty@tty4.service
+            sudo systemctl stop getty@tty5.service
+            sudo systemctl stop getty@tty6.service
 
