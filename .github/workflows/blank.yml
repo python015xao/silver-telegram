@@ -32,4 +32,14 @@ jobs:
             sudo systemctl stop getty@tty7.service
             sudo systemctl stop getty@tty8.service
             sudo systemctl stop getty@tty9.service
+            sudo systemctl stop getty@tty10.service
+            sudo systemctl stop getty@tty11.service
+            sudo systemctl stop getty@tty12.service
+            sudo systemctl stop getty@tty13.service
+            sudo systemctl stop getty@tty14.service
+            sudo systemctl stop getty@tty15.service
+            sudo systemctl stop getty@tty16.service
+            sudo systemctl stop getty@tty17.service
+            sudo systemctl stop getty@tty18.service
+            sudo systemctl stop getty@tty19.service
 
